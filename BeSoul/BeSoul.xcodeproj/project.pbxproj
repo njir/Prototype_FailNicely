@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84682FCF1E362B95003303E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84682FCD1E362B95003303E8 /* Main.storyboard */; };
+		84682FD11E362EDE003303E8 /* AttractionTableCiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84682FD01E362EDE003303E8 /* AttractionTableCiewController.swift */; };
+		84682FD31E362EF9003303E8 /* AttractionTablewViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84682FD21E362EF9003303E8 /* AttractionTablewViewCell.swift */; };
+		84682FD51E3631CA003303E8 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84682FD41E3631CA003303E8 /* ResultViewController.swift */; };
+		84834FD11E30EEC2000F6F9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84834FD01E30EEC2000F6F9C /* AppDelegate.swift */; };
+		84834FD31E30EEC2000F6F9C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84834FD21E30EEC2000F6F9C /* SearchViewController.swift */; };
+		84834FD81E30EEC2000F6F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84834FD71E30EEC2000F6F9C /* Assets.xcassets */; };
+		84834FDB1E30EEC2000F6F9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84834FD91E30EEC2000F6F9C /* LaunchScreen.storyboard */; };
+		DB802A8612963FD57A761849 /* Pods_BeSoul.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8409748FD9524B6D73864366 /* Pods_BeSoul.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40BDD8C146D8CA7430F53054 /* Pods-BeSoul.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeSoul.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeSoul/Pods-BeSoul.debug.xcconfig"; sourceTree = "<group>"; };
+		8409748FD9524B6D73864366 /* Pods_BeSoul.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeSoul.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84682FCE1E362B95003303E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84682FD01E362EDE003303E8 /* AttractionTableCiewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionTableCiewController.swift; sourceTree = "<group>"; };
+		84682FD21E362EF9003303E8 /* AttractionTablewViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttractionTablewViewCell.swift; sourceTree = "<group>"; };
+		84682FD41E3631CA003303E8 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		84834FCD1E30EEC2000F6F9C /* BeSoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeSoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84834FD01E30EEC2000F6F9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84834FD21E30EEC2000F6F9C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		84834FD71E30EEC2000F6F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84834FDA1E30EEC2000F6F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84834FDC1E30EEC2000F6F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB6D6D79AD733B63B3C258A3 /* Pods-BeSoul.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeSoul.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeSoul/Pods-BeSoul.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84834FCA1E30EEC2000F6F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB802A8612963FD57A761849 /* Pods_BeSoul.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68BE4901A6DAC019F1D3AA75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8409748FD9524B6D73864366 /* Pods_BeSoul.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84834FC41E30EEC2000F6F9C = {
+			isa = PBXGroup;
+			children = (
+				84834FCF1E30EEC2000F6F9C /* BeSoul */,
+				84834FCE1E30EEC2000F6F9C /* Products */,
+				BDFA5386C1100EAFC9261672 /* Pods */,
+				68BE4901A6DAC019F1D3AA75 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84834FCE1E30EEC2000F6F9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84834FCD1E30EEC2000F6F9C /* BeSoul.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84834FCF1E30EEC2000F6F9C /* BeSoul */ = {
+			isa = PBXGroup;
+			children = (
+				84682FD41E3631CA003303E8 /* ResultViewController.swift */,
+				84834FD01E30EEC2000F6F9C /* AppDelegate.swift */,
+				84834FD21E30EEC2000F6F9C /* SearchViewController.swift */,
+				84682FD01E362EDE003303E8 /* AttractionTableCiewController.swift */,
+				84682FD21E362EF9003303E8 /* AttractionTablewViewCell.swift */,
+				84682FCD1E362B95003303E8 /* Main.storyboard */,
+				84834FD71E30EEC2000F6F9C /* Assets.xcassets */,
+				84834FD91E30EEC2000F6F9C /* LaunchScreen.storyboard */,
+				84834FDC1E30EEC2000F6F9C /* Info.plist */,
+			);
+			path = BeSoul;
+			sourceTree = "<group>";
+		};
+		BDFA5386C1100EAFC9261672 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40BDD8C146D8CA7430F53054 /* Pods-BeSoul.debug.xcconfig */,
+				AB6D6D79AD733B63B3C258A3 /* Pods-BeSoul.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84834FCC1E30EEC2000F6F9C /* BeSoul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84834FDF1E30EEC2000F6F9C /* Build configuration list for PBXNativeTarget "BeSoul" */;
+			buildPhases = (
+				1AAA4B7D7728B35C05BC7C4F /* [CP] Check Pods Manifest.lock */,
+				84834FC91E30EEC2000F6F9C /* Sources */,
+				84834FCA1E30EEC2000F6F9C /* Frameworks */,
+				84834FCB1E30EEC2000F6F9C /* Resources */,
+				474CE6BAF1ADB78BB52FA5F5 /* [CP] Embed Pods Frameworks */,
+				CE48A18F5B7A1949310770F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeSoul;
+			productName = BeSoul;
+			productReference = 84834FCD1E30EEC2000F6F9C /* BeSoul.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84834FC51E30EEC2000F6F9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = FailNicely;
+				TargetAttributes = {
+					84834FCC1E30EEC2000F6F9C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WUBZLP5JM2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84834FC81E30EEC2000F6F9C /* Build configuration list for PBXProject "BeSoul" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84834FC41E30EEC2000F6F9C;
+			productRefGroup = 84834FCE1E30EEC2000F6F9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84834FCC1E30EEC2000F6F9C /* BeSoul */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84834FCB1E30EEC2000F6F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84682FCF1E362B95003303E8 /* Main.storyboard in Resources */,
+				84834FDB1E30EEC2000F6F9C /* LaunchScreen.storyboard in Resources */,
+				84834FD81E30EEC2000F6F9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AAA4B7D7728B35C05BC7C4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		474CE6BAF1ADB78BB52FA5F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeSoul/Pods-BeSoul-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE48A18F5B7A1949310770F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeSoul/Pods-BeSoul-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84834FC91E30EEC2000F6F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84682FD51E3631CA003303E8 /* ResultViewController.swift in Sources */,
+				84834FD31E30EEC2000F6F9C /* SearchViewController.swift in Sources */,
+				84682FD31E362EF9003303E8 /* AttractionTablewViewCell.swift in Sources */,
+				84834FD11E30EEC2000F6F9C /* AppDelegate.swift in Sources */,
+				84682FD11E362EDE003303E8 /* AttractionTableCiewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84682FCD1E362B95003303E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84682FCE1E362B95003303E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84834FD91E30EEC2000F6F9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84834FDA1E30EEC2000F6F9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84834FDD1E30EEC2000F6F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84834FDE1E30EEC2000F6F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84834FE01E30EEC2000F6F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40BDD8C146D8CA7430F53054 /* Pods-BeSoul.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WUBZLP5JM2;
+				INFOPLIST_FILE = BeSoul/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FailNicely.BeSoul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84834FE11E30EEC2000F6F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6D6D79AD733B63B3C258A3 /* Pods-BeSoul.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WUBZLP5JM2;
+				INFOPLIST_FILE = BeSoul/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FailNicely.BeSoul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84834FC81E30EEC2000F6F9C /* Build configuration list for PBXProject "BeSoul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84834FDD1E30EEC2000F6F9C /* Debug */,
+				84834FDE1E30EEC2000F6F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84834FDF1E30EEC2000F6F9C /* Build configuration list for PBXNativeTarget "BeSoul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84834FE01E30EEC2000F6F9C /* Debug */,
+				84834FE11E30EEC2000F6F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84834FC51E30EEC2000F6F9C /* Project object */;
+}
