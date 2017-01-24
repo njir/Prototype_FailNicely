@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A7D4F80391A9D887FEEC207277B7DA9E50AF78A2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A7D4F80391A9D887FEEC207277B7DA9E50AF78A2" : 9223372036854775807,
+    "B73443B47ED6169A475BB070BB3E391BD7FA5739" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CD01E8DB-C3CE-43D1-820F-D360601FC939",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A7D4F80391A9D887FEEC207277B7DA9E50AF78A2" : "Prototype_FailNicely\/",
+    "B73443B47ED6169A475BB070BB3E391BD7FA5739" : "Infinite-UIITableview-Scroll\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BeSoul",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BeSoul\/BeSoul.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:njir\/Prototype_FailNicely.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A7D4F80391A9D887FEEC207277B7DA9E50AF78A2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JigarM\/Infinite-UIITableview-Scroll.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B73443B47ED6169A475BB070BB3E391BD7FA5739"
+    }
+  ]
+}

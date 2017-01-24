@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import SnapKit
 
 class SearchViewController: UIViewController, UITextFieldDelegate {
 
@@ -54,9 +53,9 @@ class SearchViewController: UIViewController, UITextFieldDelegate {
         */
         
         // For Navigation View Controller
-        let resultViewController = self.storyboard?.instantiateViewController(withIdentifier: "ResultViewController") as! ResultViewController
-        resultViewController.searchWord = searchWord
-        self.navigationController?.pushViewController(resultViewController, animated: true)
+        let resultTableVC = self.storyboard?.instantiateViewController(withIdentifier: "ResultTableViewController") as! ResultTableViewController
+        resultTableVC.searchWord = searchWord
+        self.navigationController?.pushViewController(resultTableVC, animated: true)
     }
     
 }
