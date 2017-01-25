@@ -9,11 +9,13 @@
 import UIKit
 
 class ResultTableViewController: UITableViewController {
+    // MARK: Property
     let PageSize = 20
     var items = [MyItem]()
     var isLoading = false
     var searchWord: String?
 
+    // MARK: Outlets
     @IBOutlet weak var MyFooterView: UIView!
     
     // MARK: Life Cycle
@@ -35,7 +37,6 @@ class ResultTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -55,7 +56,7 @@ class ResultTableViewController: UITableViewController {
         let cell: ResultTableViewCell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ResultTableViewCell
 
         // Configure the cell...
-        let imagename = getRandomNumberBetween(From: 1, To: 10).description + ".png"
+        let imagename = getRandomNumberBetween(From: 1, To: 10) + ".png"
         cell.img.image = UIImage(named:imagename)! as UIImage
         cell.lbl.text = items[indexPath.row].name as String
         cell.desLabel.text = randomString(length: getRandomNumberBetween(From: 10, To: 30))
@@ -69,6 +70,7 @@ class ResultTableViewController: UITableViewController {
             loadSegment(offset: items.count, size: PageSize-1)
         }
     }
+    
     /*
     // MARK: - Navigation
 
@@ -79,6 +81,7 @@ class ResultTableViewController: UITableViewController {
     }
     */
     
+    // MARK: Data Manager
     func loadSegment(offset:Int, size:Int) {
         if (!self.isLoading) {
             self.isLoading = true
@@ -103,13 +106,13 @@ class ResultTableViewController: UITableViewController {
         
     }
     
+    // MARK: Utility
     func getRandomNumberBetween (From: Int , To: Int) -> Int {
         return From + Int(arc4random_uniform(UInt32(To - From + 1)))
     }
     
     func randomString(length: Int) -> String {
-        
-        let letters : NSString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+        let letters : NSString = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
         let len = UInt32(letters.length)
         
         var randomString = ""
