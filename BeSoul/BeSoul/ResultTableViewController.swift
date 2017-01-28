@@ -56,7 +56,7 @@ class ResultTableViewController: UITableViewController {
         let cell: ResultTableViewCell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ResultTableViewCell
 
         // Configure the cell...
-        let imagename = getRandomNumberBetween(From: 1, To: 10) + ".png"
+        let imagename = getRandomNumberBetween(From: 1, To: 10).description + ".png"
         cell.img.image = UIImage(named:imagename)! as UIImage
         cell.lbl.text = items[indexPath.row].name as String
         cell.desLabel.text = randomString(length: getRandomNumberBetween(From: 10, To: 30))

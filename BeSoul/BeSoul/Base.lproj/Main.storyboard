@@ -10,47 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Search View Controller-->
-        <scene sceneID="aMK-4p-DxH">
-            <objects>
-                <viewController id="oT2-yq-ojF" customClass="SearchViewController" customModule="BeSoul" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yaw-8E-7a3"/>
-                        <viewControllerLayoutGuide type="bottom" id="7Xd-Jd-Csi"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kj2-KA-gTe">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="At9-jA-Lly" userLabel="Logo Button">
-                                <rect key="frame" x="161" y="164" width="52" height="30"/>
-                                <state key="normal" title="Be Soul"/>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LAN-nC-XbO" userLabel="Search Text Field">
-                                <rect key="frame" x="16" y="204" width="343" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="LAN-nC-XbO" firstAttribute="bottom" secondItem="At9-jA-Lly" secondAttribute="bottom" constant="40" id="Mlg-M1-2gt"/>
-                            <constraint firstItem="LAN-nC-XbO" firstAttribute="leading" secondItem="kj2-KA-gTe" secondAttribute="leadingMargin" id="OQH-uj-y1i"/>
-                            <constraint firstItem="At9-jA-Lly" firstAttribute="top" secondItem="yaw-8E-7a3" secondAttribute="bottom" constant="100" id="jHN-DN-CcA"/>
-                            <constraint firstItem="At9-jA-Lly" firstAttribute="centerX" secondItem="kj2-KA-gTe" secondAttribute="centerX" id="lkd-XG-6yp"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="LAN-nC-XbO" secondAttribute="trailing" id="waG-5F-KHf"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="aTC-0a-Xyw"/>
-                    <connections>
-                        <outlet property="SearchTextField" destination="LAN-nC-XbO" id="Urb-P9-C1v"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jRs-qC-hS8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="663.20000000000005" y="205.54722638680661"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ct7-we-Zvj">
             <objects>
@@ -61,9 +20,6 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="oT2-yq-ojF" kind="relationship" relationship="rootViewController" id="MLb-u4-qWe"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HEL-Fc-UoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,11 +49,11 @@
                             </constraints>
                         </view>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" indentationWidth="10" reuseIdentifier="Cell" rowHeight="85" id="uIR-2J-Wh9" customClass="ResultTableViewCell" customModule="BeSoul">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" rowHeight="85" id="uIR-2J-Wh9" customClass="ResultTableViewCell" customModule="BeSoul">
                                 <rect key="frame" x="0.0" y="22" width="375" height="85"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uIR-2J-Wh9" id="2Jk-XP-HAS">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="84"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lkn-Zv-txS">
@@ -139,7 +95,61 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f4r-b5-xIV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1448.8" y="205.54722638680661"/>
+            <point key="canvasLocation" x="1806" y="-59"/>
+        </scene>
+        <!--Search View Controller-->
+        <scene sceneID="1tB-C2-UoO">
+            <objects>
+                <viewController id="9if-Fh-rgz" customClass="SearchViewController" customModule="BeSoul" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eM0-DU-XhZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="aHY-xo-72Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jjH-kk-YVG" userLabel="View" customClass="Sear">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNB-SX-Qds" userLabel="Logo">
+                                <rect key="frame" x="174" y="103" width="16" height="22"/>
+                                <state key="normal" image="LogoIcon"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="작품명 또는 작가명" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Fjc-Ra-8u5" userLabel="SearchTextField">
+                                <rect key="frame" x="16" y="149" width="307" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmW-KV-sEE" userLabel="SearchButton">
+                                <rect key="frame" x="331" y="209" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="SearchIcon"/>
+                                <connections>
+                                    <action selector="pressSearchBtn:" destination="9if-Fh-rgz" eventType="touchUpInside" id="REF-Hd-9oB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JNB-SX-Qds" firstAttribute="centerX" secondItem="jjH-kk-YVG" secondAttribute="centerX" constant="-6" id="1dq-PT-tYX"/>
+                            <constraint firstItem="JNB-SX-Qds" firstAttribute="top" secondItem="eM0-DU-XhZ" secondAttribute="bottom" constant="83" id="40Y-Rp-JOh"/>
+                            <constraint firstItem="Fjc-Ra-8u5" firstAttribute="leading" secondItem="jjH-kk-YVG" secondAttribute="leadingMargin" id="Bly-7h-SVs"/>
+                            <constraint firstItem="Fjc-Ra-8u5" firstAttribute="trailing" secondItem="jjH-kk-YVG" secondAttribute="trailingMargin" constant="-36" id="nYq-Tn-zk2"/>
+                            <constraint firstItem="Fjc-Ra-8u5" firstAttribute="top" secondItem="JNB-SX-Qds" secondAttribute="bottom" constant="24" id="pI6-DA-91t"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="urq-Xs-fcv"/>
+                    <connections>
+                        <outlet property="searchBtn" destination="gmW-KV-sEE" id="XQ2-av-Utj"/>
+                        <outlet property="searchTextField" destination="Fjc-Ra-8u5" id="bCz-WO-4fE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c7b-nw-DaQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="138.98050974512745"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LogoIcon" width="16" height="16"/>
+        <image name="SearchIcon" width="16" height="16"/>
+    </resources>
 </document>
